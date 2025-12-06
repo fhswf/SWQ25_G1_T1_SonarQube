@@ -136,9 +136,16 @@ In dieser Übung lernen Sie:
 
 **Aufgaben zur Analyse:**
 1. Wie viele Issues wurden insgesamt gefunden? Notieren Sie die Anzahl nach Typ (Bugs, Vulnerabilities, Code Smells).
-2. Welches Issue hat die höchste Severity (Blocker)? Was ist das Problem?
-3. Suchen Sie ein Issue mit Severity "Critical". Lesen Sie "Why is this an issue?" - erklären Sie kurz, warum dies ein Problem ist.
-
+   Security: 5
+   Reliablility: 9
+   Maintainablility: 8
+   
+3. Welches Issue hat die höchste Severity (Blocker)? Was ist das Problem?
+   Passwortschutz der Datenbank ---> Passwort hinzufügen 
+   
+5. Suchen Sie ein Issue mit Severity "Critical". Lesen Sie "Why is this an issue?" - erklären Sie kurz, warum dies ein Problem ist.
+   Fehlermeldung: "Make this Salt unpredictable." --> Der Schlüssel ist im Code ersichtlich (hardcoded). Sicherheitsproblem. 
+   
 ### Schritt 6: Code-Problem provozieren (10 Minuten)
 
 1. **Datei bearbeiten**
@@ -148,14 +155,14 @@ In dieser Übung lernen Sie:
 
 2. **Änderung committen und pushen**
 
-3. **Build-Fehler beobachten**
+4. **Build-Fehler beobachten**
    - Gehen Sie zu **Actions** in GitHub
    - Der Build sollte automatisch starten (durch den Push)
    - **Der Build schlägt fehl** - dies ist gewollt!
    - Klicken Sie auf den fehlgeschlagenen Build
    - Schauen Sie sich die Logs an - wo ist der Fehler?
 
-4. **Ergebnis in SonarQube**
+5. **Ergebnis in SonarQube**
    - Gehen Sie zu SonarQube
    - Das neue Issue sollte nun sichtbar sein
    - Analysieren Sie, welches neue Problem hinzugekommen ist
