@@ -1,4 +1,4 @@
-# Übung 6: Code-Qualitätsanalyse mit SonarQube
+f# Übung 6: Code-Qualitätsanalyse mit SonarQube
 
 ## Lernziele
 
@@ -166,6 +166,7 @@ In dieser Übung lernen Sie:
    - Gehen Sie zu SonarQube
    - Das neue Issue sollte nun sichtbar sein
    - Analysieren Sie, welches neue Problem hinzugekommen ist
+     "Remove this commented out code." Die Zeile, die auskommentiert wurde, darf nicht auskommentiert werden. 
 
 ### Schritt 7: Problem beheben (5 Minuten)
 
